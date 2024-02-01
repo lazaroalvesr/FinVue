@@ -35,7 +35,7 @@ export default function Header() {
             </div>
           </div>
           <div className="lg:ml-12 ml-0 pl-4 items-center pt-6 relative">
-            <ul className={`lg:flex gap-4 lg:static lg:h-auto ${ativaMenu ? 'absolute bg-gray-50 left-0 w-full text-center top-20 h-full pt-32 flex-col z-50' : "h-0 overflow-hidden"}`}>
+            <ul className={`lg:flex gap-4 lg:static lg:h-auto ${ativaMenu ? 'absolute bg-gray-50 -ml-32 left-0 w-96 text-center top-20 h-96 pt-32 flex-col z-50' : "h-0 overflow-hidden"}`}>
               <li className="text-3xl lg:text-sm">
                 <Link href={'/'}>
                   Personal
