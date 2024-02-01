@@ -1,10 +1,10 @@
 // Importando as dependências necessárias
-import { useUser } from "@auth0/nextjs-auth0/client";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { CiMenuFries } from "react-icons/ci";
 import LoginButton from "./LoginButton";
+import { useUser } from "@auth0/nextjs-auth0/client";
+import { CiMenuFries } from "react-icons/ci";
 
 // Definindo o componente de cabeçalho
 export default function Header() {
