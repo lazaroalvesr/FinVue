@@ -1,4 +1,6 @@
-export function Avaliacao() {
+import React from 'react';
+
+const Avaliacao = () => {
   return (
     <section>
       <div className="lg:max-w-7xl w-[330px] lg:w-full lg:mt-20 mt-32 lg:h-44 h-[530px] rounded-2xl m-auto bg-blue-500 text-gray-50">
@@ -17,6 +19,8 @@ export function Avaliacao() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
+
+export default Avaliacao;

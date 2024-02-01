@@ -1,9 +1,13 @@
+import React from 'react';
+
+
 import { GrSecure } from "react-icons/gr";
 import { SiAuthelia } from "react-icons/si";
 import { CiBank } from "react-icons/ci";
 import { VscAccount } from "react-icons/vsc";
 
-export function Choice() {
+
+const Choice = () => {
   return (
     <section>
       <div className="max-w-7xl m-auto grid  grid-cols-1 lg:grid-cols-2 mt-24">
@@ -56,3 +60,5 @@ export function Choice() {
     </section>
   )
 }
+
+export default Choice

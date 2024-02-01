@@ -1,9 +1,12 @@
+import React from 'react';
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 
 
-export function Main() {
+const Main = () => {
   return (
     <section>
       <div className="max-w-6xl m-auto">
@@ -53,3 +56,5 @@ export function Main() {
     </section>
   )
 }
+
+export default Main
